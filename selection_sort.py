@@ -5,3 +5,4 @@ def selection_sort(list_):
             if list_[location] > list_[max_index]:
                 max_index = location
         list_[fill_slot], list_[max_index] = list_[max_index], list_[fill_slot]
+    return list_
